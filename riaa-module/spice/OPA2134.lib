@@ -1,0 +1,7 @@
+.INCLUDE "OPAx134.lib"
+
+.SUBCKT OPA2134 1 2 3 4 5 6 7 8 
+* +IN -IN V+ V- Vout
+X1      3 2 8 4 1   OPAx134
+X2      5 6 8 4 7   OPAx134
+.ENDS

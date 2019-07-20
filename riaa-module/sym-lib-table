@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name riaa-module2-rescue)(type Legacy)(uri ${KIPRJMOD}/riaa-module2-rescue.lib)(options "")(descr ""))
+  (lib (name ina163)(type Legacy)(uri ${KIPRJMOD}/ina163.lib)(options "")(descr ""))
+)

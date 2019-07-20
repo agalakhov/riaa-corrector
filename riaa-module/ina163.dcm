@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA163
+D Low-Noise, Low-Distortion Instrumentation Amplifier
+F ina163.pdf
+$ENDCMP
+#
+#End Doc Library

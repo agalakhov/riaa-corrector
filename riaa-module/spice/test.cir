@@ -1,0 +1,29 @@
+.title KiCad schematic
+.include "/home/agalakhov/elec/riaa-module2/spice/OPA2134.lib"
+XU1 Net-_R3-Pad1_ Net-_R2-Pad1_ Net-_C1-Pad1_ -12V NC_01 NC_02 NC_03 +12V OPA2134
+VJ2 +12V GND dc 12
+VJ3 GND -12V dc 12
+R1 Net-_C1-Pad1_ Net-_J1-Pad1_ 7k5
+C1 Net-_C1-Pad1_ GND 10n
+R2 Net-_R2-Pad1_ GND 1k
+R3 Net-_R3-Pad1_ Net-_R2-Pad1_ 1k
+VJ1 Net-_J1-Pad1_ GND dc 0 ac 3.5m 0 sin(0 3.5m 1k)
+.save @vj2[i]
+.save @vj3[i]
+.save @r1[i]
+.save @c1[i]
+.save @r2[i]
+.save @r3[i]
+.save @vj1[i]
+.save V(+12V)
+.save V(-12V)
+.save V(GND)
+.save V(Net-_C1-Pad1_)
+.save V(Net-_J1-Pad1_)
+.save V(Net-_R2-Pad1_)
+.save V(Net-_R3-Pad1_)
+.save V(Net-_U1-Pad5_)
+.save V(Net-_U1-Pad6_)
+.save V(Net-_U1-Pad7_)
+.tran 100m 1
+.end
