@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name block_trafo)(type KiCad)(uri ${KIPRJMOD}/../block_trafo.pretty)(options "")(descr ""))
+)
