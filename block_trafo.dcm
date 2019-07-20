@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VB_1,5_2
+D Transformer, single primary, dual secondary
+K transformer coil magnet
+$ENDCMP
+#
+#End Doc Library
